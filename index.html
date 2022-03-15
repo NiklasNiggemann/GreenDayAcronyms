@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackpink Acronym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <a href="index.html">
+            <img src="logo.png" alt="Blackpink Logo">
+        </a>
+
+        <h1>Type in your acronym to see <br> what song it stands for!</h1>
+
+        <div>
+            <input type="text" maxlength="7" id="input" placeholder="HYLT">
+            <button onclick="getInput()">Charge!</button>
+        </div>
+
+        <span id="result"></span>
+        <a href="#" id="youtube" target="blank"></a>
+
+        <div id="addAbbreviation">
+            <form action="https://formsubmit.co/niklasniggemann@yahoo.de" method="POST">
+                <h5 id="error">Add this acronym now!</h5>
+                <input id='Abb' type="text" name="Abbreviation" placeholder="Abbreviation" maxlength="12" required>
+                <input id='Title' type="text" name="Song Title" placeholder="Song Title" maxlength="30" required>
+                <!-- <input type="hidden" name="_next" value="thx.html"> -->
+                <input type="hidden" name="_subject" value="Blackpink Abbreviation!">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Send!</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>This website will always be free to use and will never have ads!</p>
+
+        <p>If you like this little project, feel free to buy me a cup of coffee by clicking
+            <a target="blank" href="https://www.buymeacoffee.com/jjjustboy"> <b>here</b></a>!</p>
+
+        <p id="Impressum">Designed & Developed by Niklas Niggemann (2022)</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

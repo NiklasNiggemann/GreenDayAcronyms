@@ -10,7 +10,7 @@ h1 {
     color: #F1F1F1;
     text-align: center;
     font-size: 35px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -32,7 +32,7 @@ input {
     font-size: 20px;
     text-transform: uppercase;
     color: #F1F1F1;
-    border: 2px solid rgba(236, 172, 185, 255);
+    border: 2px solid #a7423f;
     border-radius: 5px;
 }
 
@@ -49,7 +49,7 @@ input:focus {
 }
 
 button {
-    background-color: rgba(236, 172, 185);
+    background-color: #a7423f;
     border: none;
     color: black;
     padding: 6px 10px;
@@ -66,19 +66,19 @@ button:hover {
 }
 
 button:active {
-    background-color: rgba(236, 172, 185, 0.755);
+    background-color: #8f1813;
     transition-duration: 1ms;
 }
 
 span {
-    color: rgba(236, 172, 185, 255);
+    color: #a7423f;
     font-size: 50px;
     font-weight: bold;
     margin-top: 35px;
 }
 
 a {
-    color: rgba(236, 172, 185, 255);
+    color: #a7423f;
     font-size: 28px;
     font-weight: bold;
     margin-top: 15px;

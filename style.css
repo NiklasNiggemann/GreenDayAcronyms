@@ -72,10 +72,10 @@ button:active {
 }
 
 span {
-    color: #a7423f;
+    color: #F1F1F1;
     font-size: 50px;
-    font-weight: bold;
-    margin-top: 35px;
+    font-weight: bolder;
+    margin-top: 40px;
 }
 
 a {
@@ -132,6 +132,10 @@ form {
     text-transform: none;
     width: 250px;
     margin-bottom: 15px;
+}
+
+#lastButton {
+    margin-bottom: 40px;
 }
 
 
